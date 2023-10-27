@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+html, body {
+    // height: 100%;
+    font-family: Roboto Slab;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+#app {
+    margin: 50px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.game-holder {
+    width: 150px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #000;
+    min-height: 363px;
+    cursor: pointer;
+}
+.game-image {
+    min-height: 250px;
+}
+.brief-rating {
+    // display: flex;
+    font-size: 9px;
+}
+.brief-des {
+    margin-bottom: 10px;
+}
